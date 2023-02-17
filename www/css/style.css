@@ -1,0 +1,50 @@
+/* Roboto regular */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/images/Roboto/Roboto-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Roboto bold */
+
+@font-face {
+    font-family: "Roboto";
+    src: url('/images/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+html.wf-loading * {
+    opacity: 0;
+}
+
+#map {
+    height: 100%;
+  }
+
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+#my-input-searchbox {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  font-size: 15px;
+  border-radius: 3px;
+  border: 0px;
+  margin-top: 60px;
+  width: 270px;
+  height: 40px;
+  text-overflow: "ellipsis";
+  padding: 0 1em;
+}
+
+@media only screen and (max-width: 600px) {
+        
+}
+@media only screen and (min-width: 600px) {
+
+}

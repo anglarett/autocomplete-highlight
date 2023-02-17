@@ -1,0 +1,16 @@
+{
+  "name": "autocomplete-highlight",
+  "version": "1.0.0",
+  "description": "This functional solution aka. Autocomplete Translated leverages [Google Maps Place Autocomplete](https://developers.google.com/maps/documentation/places/web-service/autocomplete) and [Google Cloud Translation API](https://cloud.google.com/translate) for creating a type ahead user input that includes real time translation.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}
